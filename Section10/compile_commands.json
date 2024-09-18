@@ -1,0 +1,29 @@
+[{
+  "file": "D:\\C++\\teachSource\\Section10\\CPPStrings\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section10\\CPPStrings",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section10\\CPPStrings\\main.cpp -o D:\\C++\\teachSource\\Section10\\CPPStrings\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section10\\ChallengeSolution\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section10\\ChallengeSolution",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section10\\ChallengeSolution\\main.cpp -o D:\\C++\\teachSource\\Section10\\ChallengeSolution\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section10\\Assignment\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section10\\Assignment",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section10\\Assignment\\main.cpp -o D:\\C++\\teachSource\\Section10\\Assignment\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section10\\Challenge\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section10\\Challenge",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section10\\Challenge\\main.cpp -o D:\\C++\\teachSource\\Section10\\Challenge\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section10\\CharFunctions\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section10\\CharFunctions",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section10\\CharFunctions\\main.cpp -o D:\\C++\\teachSource\\Section10\\CharFunctions\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section10\\test\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section10\\test",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section10\\test\\main.cpp -o D:\\C++\\teachSource\\Section10\\test\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section10\\CStyleStrings\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section10\\CStyleStrings",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section10\\CStyleStrings\\main.cpp -o D:\\C++\\teachSource\\Section10\\CStyleStrings\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }]

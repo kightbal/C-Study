@@ -1,0 +1,13 @@
+[{
+  "file": "D:\\C++\\teachSource\\Section5\\Comments\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section5\\Comments",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section5\\Comments\\main.cpp -o D:\\C++\\teachSource\\Section5\\Comments\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section5\\BasicIO\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section5\\BasicIO",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section5\\BasicIO\\main.cpp -o D:\\C++\\teachSource\\Section5\\BasicIO\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "D:\\C++\\teachSource\\Section5\\ModifiedProgram\\main.cpp",
+  "directory": "D:\\C++\\teachSource\\Section5\\ModifiedProgram",
+  "command": "D:/C++/mingw/mingw64/bin/g++.exe -c D:\\C++\\teachSource\\Section5\\ModifiedProgram\\main.cpp -o D:\\C++\\teachSource\\Section5\\ModifiedProgram\\main.cpp.o -target x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -ID:\\C++\\mingw\\mingw64\\include\\c++\\14.2.0\\backward -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -ID:\\C++\\mingw\\mingw64\\include -ID:\\C++\\mingw\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -ID:\\C++\\mingw\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }]
