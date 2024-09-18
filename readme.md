@@ -1,0 +1,1 @@
+This is a repository for my C++ basics learning, mainly based on the content learned from the Udemy C++ basics course. This repository is used to track my C++ learning progress. If there are friends who are also learning C++ basics and are interested in exchanging learning experiences with me, please feel free to contact me.
