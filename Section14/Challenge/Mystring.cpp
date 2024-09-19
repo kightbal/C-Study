@@ -277,13 +277,10 @@ void operator*=(Mystring &ref, int count) {
 //重载操作符前++，将当前字符串大写，返回为大写前的字符串
 Mystring &operator++(Mystring &ref) {
     // do what ever you want increment do to - maybe make all characters uppercase?
-    char *buff = new char[std::strlen(ref.str) + 1];
-    std::strcpy(buff, ref.str);
     for (size_t i = 0; i < std::strlen(ref.str); i++) {
-        buff[i] = std::toupper(buff[i]);
+        ref.str[i] = std::toupper(ref.str[i]);
     }
-    ref = Mystring(buff);
-    delete[] buff;
+
     return ref;
 }
 
