@@ -164,9 +164,9 @@ std::istream &operator>>(std::istream &in, Mystring &rhs) {
 
 //重载操作符+=,将字符串相加并赋值给当前字符串
 // Overload the operator+= to concatenate the string and assign it to the current string
-// void Mystring::operator+=(const Mystring &ref) {
+// Mystring &Mystring::operator+=(const Mystring &ref) {
 //     *this = *this + ref;
-//     return;
+//     return this;
 // }
 
 //重载操作符*,将字符串乘以一个数字
@@ -182,9 +182,9 @@ std::istream &operator>>(std::istream &in, Mystring &rhs) {
 //     return temp;
 // }
 
-// void Mystring::operator*=(int count) {
+// Mystring &Mystring::operator*=(int count) {
 //     *this = *this * count;
-//     return;
+//     return this;
 // }
 
 /*
@@ -250,9 +250,9 @@ Mystring operator+(const Mystring &lref, const Mystring &ref) {
 
 //重载操作符+=,将字符串相加并赋值给当前字符串
 // Overload the operator+= to concatenate the string and assign it to the current string
-void operator+=(Mystring &lref, const Mystring &ref) {
+Mystring &operator+=(Mystring &lref, const Mystring &ref) {
     lref = lref + ref;
-    return;
+    return lref;
 }
 
 //重载操作符*,将字符串乘以一个数字
@@ -269,9 +269,9 @@ Mystring operator*(const Mystring &ref, int count) {
 }
 
 //重载操作符+=,将字符串乘以一个数字并赋值给当前字符串
-void operator*=(Mystring &ref, int count) {
+Mystring &operator*=(Mystring &ref, int count) {
     ref = ref * count;
-    return;
+    return ref;
 }
 
 //重载操作符前++，将当前字符串大写，返回为大写前的字符串

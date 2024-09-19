@@ -54,9 +54,9 @@ public:
     friend bool operator<(const Mystring &lref, const Mystring &ref);
     friend bool operator>(const Mystring &lref, const Mystring &ref);
     friend Mystring operator+(const Mystring &lref, const Mystring &ref);
-    friend void operator+=(Mystring &lref, const Mystring &ref);
+    friend Mystring &operator+=(Mystring &lref, const Mystring &ref);
     friend Mystring operator*(const Mystring &ref, int count);
-    friend void operator*=(Mystring &ref, int count);
+    friend Mystring &operator*=(Mystring &ref, int count);
     friend Mystring &operator++(Mystring &ref);
     friend Mystring operator++(Mystring &ref, int);
 };
