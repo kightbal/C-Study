@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/yujinke/projects/c++/teachSource/Section13/ConstructorInitializationLists",
-      "program": "/home/yujinke/projects/c++/teachSource/Section13/ConstructorInitializationLists/build/Debug/outDebug",
+      "cwd": "/home/yujinke/projects/c++/teachSource/Section14/Challenge",
+      "program": "/home/yujinke/projects/c++/teachSource/Section14/Challenge/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

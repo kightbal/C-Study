@@ -91,3 +91,74 @@ std::istream &operator>>(std::istream &in, Mystring &rhs) {
     delete[] buff;
     return in;
 }
+
+Mystring Mystring::operator-() {
+    char *buff = new char[std::strlen(str) + 1];
+    buff = strcpy(buff, str);
+    for (size_t i = 0; i < std::strlen(str); i++) {
+        buff[i] = std::tolower(buff[i]);
+    }
+    Mystring temp{buff};
+    delete[] buff;
+    return temp;
+}
+
+bool Mystring::operator==(const Mystring &ref) {
+    size_t size_ref = std::strlen(ref.str);
+    size_t size_own = std::strlen(str);
+    if (size_ref != size_own)
+        return false;
+    for (size_t i = 0; i < size_ref; i++) {
+        if (ref.str[i] != str[i])
+            return false;
+    }
+    return true;
+}
+
+bool Mystring::operator!=(const Mystring &ref) {
+    size_t size_ref = std::strlen(ref.str);
+    size_t size_own = std::strlen(str);
+    if (size_ref != size_own)
+        return true;
+    for (size_t i = 0; i < size_ref; i++) {
+        if (ref.str[i] != str[i])
+            return true;
+    }
+    return false;
+}
+
+bool Mystring::operator<(const Mystring &ref) {
+    return strcmp(str, ref.str) < 0 ? true : false;
+}
+bool Mystring::operator>(const Mystring &ref) {
+    return strcmp(str, ref.str) > 0 ? true : false;
+}
+
+Mystring Mystring::operator+(const Mystring &ref) {
+    char *buff = new char[std::strlen(ref.str) + std::strlen(str) + 1];
+    std::strcpy(buff, str);
+    std::strcat(buff, ref.str);
+    Mystring temp = Mystring{buff};
+    delete[] buff;
+    return temp;
+}
+
+void Mystring::operator+=(const Mystring &ref) {
+    *this = *this + ref;
+    return;
+}
+
+Mystring Mystring::operator*(int count) {
+    char *buff = new char[std::strlen(str) * count + 1];
+    std::strcpy(buff, str);
+    for (int i = 0; i < count - 1; i++) {
+        std::strcat(buff, str);
+    }
+    Mystring temp{buff};
+    delete[] buff;
+    return temp;
+}
+void Mystring::operator*=(int count) {
+    *this = *this * count;
+    return;
+}
