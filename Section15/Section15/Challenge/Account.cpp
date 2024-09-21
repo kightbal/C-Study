@@ -28,3 +28,12 @@ std::ostream &operator<<(std::ostream &os, const Account &account) {
     os << "[Account: " << account.name << ": " << account.balance << "]";
     return os;
 }
+
+Account operator-(Account &account, double amount) {
+    account.balance -= amount;
+    return account;
+}
+Account operator+(Account &account, double amount) {
+    account.balance += amount;
+    return account;
+}

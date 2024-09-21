@@ -1,4 +1,4 @@
-// Simple Account 
+// Simple Account
 #ifndef _ACCOUNT_H_
 #define _ACCOUNT_H_
 #include <iostream>
@@ -6,12 +6,17 @@
 
 class Account {
     friend std::ostream &operator<<(std::ostream &os, const Account &account);
-private:   
+    friend Account operator-(Account &account, double amount);
+    friend Account operator+(Account &account, double amount);
+
+private:
     static constexpr const char *def_name = "Unnamed Account";
     static constexpr double def_balance = 0.0;
+
 protected:
     std::string name;
     double balance;
+
 public:
     Account(std::string name = def_name, double balance = def_balance);
     // Account(std::string name = "Unamed Account", double balance = 0.0);
