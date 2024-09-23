@@ -18,6 +18,7 @@ public:
     virtual bool deposit(double amount);
     virtual bool withdraw(double amount);
     // Inherits the Account::withdraw method
+    virtual ~Savings_Account() = default;
 };
 
 #endif // _SAVINGS_ACCOUNT_H_

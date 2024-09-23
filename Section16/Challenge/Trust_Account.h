@@ -27,6 +27,7 @@ public:
     // Only allowed maximum of 3 withdrawals, each can be up to a maximum of 20% of the account's value
     bool withdraw(double amount);
     virtual void print(std::ostream &os) const override;
+    virtual ~Trust_Account();
 };
 
 #endif // _TRUST_ACCOUNT_H_

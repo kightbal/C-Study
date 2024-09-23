@@ -22,5 +22,6 @@ public:
     double get_balance() const;
     virtual void print(std::ostream &os) const override;
     std::string getType();
+    virtual ~Account() = default;
 };
 #endif
