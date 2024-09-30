@@ -12,7 +12,7 @@ int main() {
         return 1;
     }
 
-    char c {};
+    char c{};
     while (in_file.get(c)) {
         std::cout << c;
     }
