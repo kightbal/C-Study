@@ -1,5 +1,5 @@
 // Section 20
-// Challenge 3  
+// Challenge 3
 // Maps and Sets
 
 #include <iostream>
@@ -11,41 +11,40 @@
 #include <iomanip>
 
 // Used for Part1
-// Display the word and count from the 
+// Display the word and count from the
 // std::map<std::string, int>
 
 void display_words(const std::map<std::string, int> &words) {
     std::cout << std::setw(12) << std::left << "\nWord"
-                << std::setw(7) << std::right << "Count"<< std::endl;
+              << std::setw(7) << std::right << "Count" << std::endl;
     std::cout << "===================" << std::endl;
-    for (auto pair: words)
-        std::cout << std::setw(12) << std::left << pair.first 
-                       << std::setw(7) << std::right << pair.second << std::endl;
+    for (auto pair : words)
+        std::cout << std::setw(12) << std::left << pair.first
+                  << std::setw(7) << std::right << pair.second << std::endl;
 }
 
 // Used for Part2
-// Display the word and occurences from the 
+// Display the word and occurences from the
 // std::map<std::string, std::set<int>>
 
-void display_words(const std::map<std::string, std::set<int>> &words)
-{
-     std::cout << std::setw(12) << std::left << "\nWord"
-                << "Occurrences"<< std::endl;
+void display_words(const std::map<std::string, std::set<int>> &words) {
+    std::cout << std::setw(12) << std::left << "\nWord"
+              << "Occurrences" << std::endl;
     std::cout << "=====================================================================" << std::endl;
-    for (auto pair: words) {
-        std::cout << std::setw(12) << std::left << pair.first 
-                       << std::left << "[ ";
-        for (auto i: pair.second) 
+    for (auto pair : words) {
+        std::cout << std::setw(12) << std::left << pair.first
+                  << std::left << "[ ";
+        for (auto i : pair.second)
             std::cout << i << " ";
         std::cout << "]" << std::endl;
     }
 }
 
-// This function removes periods, commas, semicolons and colon in 
+// This function removes periods, commas, semicolons and colon in
 // a string and returns the clean version
 std::string clean_string(const std::string &s) {
     std::string result;
-    for (char c: s) {
+    for (char c : s) {
         if (c == '.' || c == ',' || c == ';' || c == ':')
             continue;
         else
@@ -54,36 +53,62 @@ std::string clean_string(const std::string &s) {
     return result;
 }
 
-// Part1 process the file and builds a map of words and the 
+// Part1 process the file and builds a map of words and the
 // number of times they occur in the file
 
 void part1() {
     std::map<std::string, int> words;
-    std::string line;       
-    std::string word;   
-    std::ifstream in_file {"../words.txt"};
+    std::string line;
+    std::string word;
+    std::ifstream in_file{"./words.txt"};
     if (in_file) {
-        
         // You implement this code
-        
+        while (!in_file.eof()) {
+            in_file >> word;
+            word = clean_string(word);
+            auto it = words.find(word);
+            if (it != words.end()) {
+                words[word] += 1;
+            } else {
+                words.insert(std::make_pair(word, 1));
+            }
+        }
+
         in_file.close();
         display_words(words);
     } else {
         std::cerr << "Error opening input file" << std::endl;
     }
 }
-    
-// Part2 process the file and builds a map of words and a 
+
+// Part2 process the file and builds a map of words and a
 // set of line numbers in which the word appears
 void part2() {
     std::map<std::string, std::set<int>> words;
     std::string line;
     std::string word;
-    std::ifstream in_file {"../words.txt"};
+    std::ifstream in_file{"./words.txt"};
     if (in_file) {
-     
         // You implement this code
-        
+        int index = 1;
+        while (getline(in_file, line)) {
+            std::stringstream buff{
+                line};
+            while (buff >> word) {
+                word = clean_string(word);
+                if (words.find(word) != words.end()) {
+                    words[word].insert(index);
+                } else {
+                    std::set<int> currency{index};
+                    words.insert(std::make_pair(word, currency));
+                }
+                index++;
+                buff.clear();
+            }
+
+            /* code */
+        }
+
         in_file.close();
         display_words(words);
     } else {
@@ -96,4 +121,3 @@ int main() {
     part2();
     return 0;
 }
-

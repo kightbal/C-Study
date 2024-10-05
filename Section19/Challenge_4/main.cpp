@@ -19,6 +19,7 @@ int main() {
         std::cout << "create copy file failed !" << std::endl;
         return 1;
     }
+
     std::string line{""};
     int i_line{1};
     while (getline(file_input, line)) {
